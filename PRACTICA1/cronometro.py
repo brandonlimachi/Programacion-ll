@@ -21,7 +21,7 @@ class Cronometro:
 
 class Main:
     vec = []
-    for i in range(10000):
+    for i in range(100000):
         vec.append(random.randint(1,100000))
     
     def ordenacionseleccion(lista):
@@ -38,3 +38,4 @@ class Main:
     vec1 = ordenacionseleccion(vec)
     c1.detener()
     print(f"{c1.lapsodetiempo()} ms")
+
